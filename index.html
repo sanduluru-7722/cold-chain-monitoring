@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Smart Box Monitor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>📦 Smart Box Monitor</h1>
+
+<div class="card">
+  <div class="row"><span>Open Count</span><span id="count">0</span></div>
+  <div class="row"><span>Inside Temp</span><span id="in">-- °C</span></div>
+  <div class="row"><span>Outside Temp</span><span id="out">-- °C</span></div>
+  <div class="row"><span>Door</span><span id="door">--</span></div>
+  <div class="row"><span>Latitude</span><span id="lat">--</span></div>
+  <div class="row"><span>Longitude</span><span id="lon">--</span></div>
+  <div class="row status"><span>Status</span><span id="status">--</span></div>
+</div>
+
+<button onclick="reset()">Reset</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>
